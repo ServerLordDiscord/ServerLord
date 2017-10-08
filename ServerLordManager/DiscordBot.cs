@@ -33,7 +33,7 @@ namespace ServerLordManager
 
             client.ExcuteAndWait(async() =>
             {
-                await client.Connect("MzU4OTI0Nzk3MjAxMjE5NTg3.DJ_iRw.sE-fT3IBjxCGS3pgLuZF_Y-ZZLk", TokenType.Bot);
+                await client.Connect("Token", TokenType.Bot);
             });
         }
 
